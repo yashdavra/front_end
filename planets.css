@@ -1,0 +1,81 @@
+body, h1, ul, li, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: url('planets.jpg'); 
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  
+  header {
+    background: rgba(0, 0, 0, 0.6); 
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+ 
+  .planet-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .planet-list li {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+  }
+  
+  .planet-list a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    transition: all 0.3s;
+    position: relative;
+  }
+  
+  .planet-list a:hover {
+    background: rgba(255, 255, 255, 0.1); 
+  }
+  
+  .planet-list img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  .planet-list span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .planet-list p {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0; 
+    transition: opacity 0.3s;
+  }
+  
+  .planet-list a:hover p {
+    opacity: 1;  
+  }
+  

@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: url('moons.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 80px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ede2e2;
+}
+
+
+.moon {
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: #e9e0e0;
+    margin-bottom: 10px;
+}
+
+
+p {
+    font-size: 16px;
+    color: #dfd6d6;
+    line-height: 1.6;
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+
+footer {
+    text-align: center;
+    color: #dacece;
+    padding: 10px 0;
+}
+
